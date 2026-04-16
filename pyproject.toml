@@ -1,0 +1,17 @@
+[project]
+name = "powerbi-workflow"
+version = "0.1.0"
+description = "Microsoft PowerBI Workflow Automation"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "msal>=1.36.0",
+    "numpy>=2.4.4",
+    "pandas>=3.0.2",
+    "requests>=2.33.1",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.15.10",
+]
