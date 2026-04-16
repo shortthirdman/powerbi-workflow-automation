@@ -20,3 +20,12 @@ Read more about Power BI Workflow Automation [here](https://pub.towardsai.net/ho
 | 7 | [Activity Log Analyzer](scripts/activity_analyzer.py)	         | Activity Log Analyzer	                | Pulls Power BI activity logs and analyzes exactly which reports are being used, by whom, and how often. 	           |
 | 8 | [Bulk Workspace Permissions](scripts/workspace_permissions.py) | Bulk Workspace Access Management	     | Handles PowerBI workspace access for teams, employees in bulk.	                                                     |
 | 9 | [Weekly Health Report](scripts/weekly_health.py)               | Weekly Health Report                  | Generates a weekly health report for a Power BI workspace.                                                          |
+
+
+### TO DO
+
+- **Semantic Link Integration:** Using Python notebooks in Fabric to read Power BI semantic models directly, preserving all DAX logic.
+
+- **Automated Data Lineage:** Mapping which data sources feed which datasets, which datasets power which reports, and which reports are used by which stakeholders. End-to-end visibility.
+
+- **Cost Optimizer:** Analyzing capacity consumption patterns and recommending right-sizing. Identifying overprovisioned workspaces and underused Premium features.
